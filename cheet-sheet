@@ -1,1 +1,92 @@
 
+
+1. Configuration                        : git config -l
+2. Setup git username                   : git config --global user.name "Rob"
+3. Setup git user email                 : git config --global user.email "signups@example.com"
+4. Cache your login credentials         : git config --global credential.helper cache
+5. Initialize a Git repo                : git init
+6. Add a file to the staging            : git add filename_here
+7. Add all files in the staging         : git add .
+8. Check a repository's status          : git status
+9. Commit changes                       : git commit -m "commit message here"
+10. Commit (and skip the staging area)  : git commit -a -m "commit message here"
+11. Commit history                      : git log
+12. Commit history including changes    : git log -p
+13. To see a specific commit            : git show commit-id
+14. To see log stats                    : git log --stat
+15. to see changes made 
+    before committing                   : git diff , git diff filename , git diff --staged
+16. To Stage Changes                    : git add -p
+17. To remove tracked files 
+    from the current working tree       : git rm filename
+18. To rename files                     : git mv oldfile newfile
+19. To revert unstaged changes          : git checkout filename
+20. To revert staged changes            : git reset HEAD filename , git reset HEAD -p
+21. To rollback the last commit         : git revert HEAD
+22. To rollback an old commit           : git revert comit_id_here
+23. To create a new branch              : git branch branch_name
+24. To switch to a newly created branch : git checkout branch_name
+25. To list branches                    : git branch
+26. To create a branch                  : git checkout -b branch_name
+27. To delete a branch                  : git branch -d branch_name
+28. To merge two branches               : git merge branch_name ( run from master )
+29. To show the commit log as a graph   : git log --graph --oneline
+30. To show the commit log as a 
+    graph of all branches               : git log --graph --oneline --all
+31. To abort a conflicting merge        : git merge --abort
+32. To add a remote repository          : git add remote https://repo_here
+33. To see remote URLs                  : git remote -v
+34. To get more info about a remote repo : git remote show origin
+35. To push changes to a remote repo    : git push
+36. To pull changes from a remote repo  : git pull
+38. To check remote branches that 
+    Git is tracking                     : git branch -r
+39. To fetch remote repo changes        : git fetch
+40. To check the current 
+    commits log of a remote repo        : git log origin/main
+41. To merge a remote repo with 
+    your local repo                     : git merge origin/main
+42. To get the contents of remote 
+     branches in Git without 
+     automatically merging              : git remote update
+43. To push a new branch to a 
+    remote repo                         : git push -u origin branch_name
+44. To remove a remote branch           : git push --delete origin branch_name_here
+45. To use git rebase                   : git rebase branch_name_here (You can transfer completed work from one branch to another using git rebase)
+46. To force a push request             : git push -f
+47. To run rebase interactively         : git rebase -i master
+                                          # p, pick = use commit
+                                          # r, reword = use commit, but edit the commit message
+                                          # e, edit = use commit, but stop for amending
+                                          # s, squash = use commit, but meld into previous commit
+                                          # f, fixup = like "squash", but discard this commit's log message
+                                          # x, exec = run command (the rest of the line) using shell
+                                          # d, drop = remove commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
